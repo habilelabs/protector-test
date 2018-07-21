@@ -1,5 +1,5 @@
 {
-  "name": "pinBox24 E2e Test",
+  "name": "protractor-test",
   "version": "1.0.0",
   "author": "Habilelabs",
   "description": "E2e Test cases using anglar protractor",
