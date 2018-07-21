@@ -1,8 +1,9 @@
-let url = require('../../config.json');
-describe('PinBox 24 App Login For Module', function () {
+let config = require('../../config.json');
+describe('Google Search Page', function () {
 
     function openApplicationInBrowser() {
-        browser.get(url.e2eUrl);
+        browser.waitForAngularEnabled(config.isAngularApp);
+        browser.get(config.e2eUrl);
     }
 
     beforeEach(function () {
@@ -12,9 +13,8 @@ describe('PinBox 24 App Login For Module', function () {
     /**
      * E2E Tc to show the login form
      */
-    it('App should show login form', function () {
-        let inputGroups = element.all(by.css('.form-control'));
-        expect(inputGroups.count()).toBe(0);
+    it('App should show google search page', function () {
+        expect(browser.getTitle()).toEqual('Google');
     });
 
 });
