@@ -1,0 +1,13 @@
+{
+  "name": "pinBox24 E2e Test",
+  "version": "1.0.0",
+  "author": "Habilelabs",
+  "description": "E2e Test cases using anglar protractor",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-protractor-runner": "^5.0.0",
+    "grunt-protractor-webdriver": "^0.2.5",
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}
