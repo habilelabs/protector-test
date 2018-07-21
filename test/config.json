@@ -1,4 +1,5 @@
 {
   "e2eUrl": "https://www.google.co.in/",
-  "isAngularApp": false
+  "isAngularApp": false,
+  "apiUrl": "http://localhost:9001/api/vi/send-file"
 }
